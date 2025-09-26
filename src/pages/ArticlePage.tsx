@@ -42,56 +42,40 @@ export function ArticlePage() {
         Back to all articles
       </Link>
       <div className="bg-white rounded-xl shadow-md overflow-hidden">
-        <div className="relative">
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full h-80 object-cover"
-          />
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-            <div className="flex items-center">
-              <span
-                className={`
-                px-2 py-1 text-xs font-medium rounded mr-2
-                ${
-                  article.category === "Analysis"
-                    ? "bg-purple-100 text-purple-800"
-                    : ""
-                }
-                ${
-                  article.category === "Forecast"
-                    ? "bg-blue-100 text-blue-800"
-                    : ""
-                }
-                ${
-                  article.category === "Warning"
-                    ? "bg-red-100 text-red-800"
-                    : ""
-                }
-                ${
-                  article.category === "Update"
-                    ? "bg-green-100 text-green-800"
-                    : ""
-                }
-              `}
-              >
-                {article.category}
-              </span>
-              <h1 className="text-white text-3xl font-bold">{article.title}</h1>
-            </div>
-          </div>
+        <div className="flex items-center p-8">
+          <h1 className=" text-3xl font-bold">{article.title}</h1>
         </div>
-        <div className="p-8">
+        <div className="px-8">
           {/* Block 1: Description */}
           <div className="mb-6">
-            <p className="text-gray-700">{article.excerpt}</p>
+            <p className="text-gray-700">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
           </div>
 
           {/* Block 2: Image with adjacent text */}
           <div className="mb-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
               <img
-                src={article.image}
+                src={article.image[1] ?? article.image[0]}
                 alt={article.title}
                 className="w-full h-56 object-cover rounded-lg"
               />
@@ -99,26 +83,24 @@ export function ArticlePage() {
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   Overview
                 </h3>
-                <p className="text-gray-700 mb-3">{previewText}...</p>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
-                  <li>
-                    <span className="font-medium">Date:</span> {article.date}
-                  </li>
-                  <li>
-                    <span className="font-medium">Author:</span>{" "}
-                    {article.author}
-                  </li>
-                  <li>
-                    <span className="font-medium">Category:</span>{" "}
-                    {article.category}
-                  </li>
-                </ul>
+                <p className="text-gray-700 mb-3">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
               </div>
             </div>
           </div>
 
           {/* Block 3: Highlights */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
             <div className="bg-sky-50 p-4 rounded-lg">
               <div className="flex items-center mb-2">
                 <CalendarIcon className="h-5 w-5 text-sky-500 mr-2" />
@@ -149,17 +131,56 @@ export function ArticlePage() {
               </p>
               <p className="text-xs text-amber-600 mt-1">Article type</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Long Description */}
           <div className="mb-12">
             <h3 className="text-xl font-semibold text-gray-800 mb-3">
               Long Description
             </h3>
-            <div
+            {/* <div
               className="prose prose-sky max-w-none"
               dangerouslySetInnerHTML={{ __html: article.content }}
-            />
+            /> */}
+            <p className="text-gray-700">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
           </div>
 
           <div className="mt-12 pt-6 border-t border-gray-200">

@@ -2,7 +2,7 @@ export interface Article {
   id: string;
   title: string;
   excerpt: string;
-  image: string;
+  image: string[];
   date: string;
   author: string;
   category: "Forecast" | "Warning" | "Update" | "Analysis";
@@ -15,8 +15,10 @@ export const articlesData: Article[] = [
     title: "Typhoon Malakas Path: Projected Trajectory and Impact Areas",
     excerpt:
       "Meteorologists track Typhoon Malakas as it moves west-northwest at 12 mph. Current models show potential landfall in eastern coastal regions by Wednesday evening.",
-    image:
-      "https://images.unsplash.com/photo-1527482797697-8795b05a13fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    image: [
+      "https://images.unsplash.com/photo-1594760467013-64ac2b80b7d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "https://od2-image-api.abs-cbn.com/prod/editorImage/1758685377905G1lNB4eagAAnGT9.jfif",
+    ],
     date: "Today, 10:45 AM",
     author: "Dr. Michael Wong",
     category: "Forecast",
@@ -51,8 +53,9 @@ export const articlesData: Article[] = [
     title: "Emergency Preparations: What You Need Before Typhoon Landfall",
     excerpt:
       "Essential supplies, evacuation routes, and safety protocols to follow as Typhoon Malakas approaches. Officials recommend at least 3 days of emergency supplies.",
-    image:
+    image: [
       "https://images.unsplash.com/photo-1468259275383-c4f1b88d5772?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    ],
     date: "Today, 9:30 AM",
     author: "Emma Rodriguez",
     category: "Warning",
@@ -112,8 +115,9 @@ export const articlesData: Article[] = [
     title: "Flooding Concerns Rise as Reservoirs Reach Capacity",
     excerpt:
       "With 15-20 inches of rain expected, authorities are monitoring reservoir levels. Pre-emptive releases have begun to create capacity for incoming rainfall.",
-    image:
+    image: [
       "https://images.unsplash.com/photo-1547683905-f686c993aae5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    ],
     date: "Yesterday, 2:20 PM",
     author: "Lisa Johnson",
     category: "Update",
@@ -160,8 +164,9 @@ export const articlesData: Article[] = [
     title: "Climate Change and Typhoon Intensity: The Connection",
     excerpt:
       "Scientists explain how warming ocean temperatures contribute to stronger and more frequent typhoons, with analysis of recent intensification patterns.",
-    image:
+    image: [
       "https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    ],
     date: "2 days ago",
     author: "Dr. Sarah Peterson",
     category: "Analysis",
