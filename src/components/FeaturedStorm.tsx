@@ -26,20 +26,27 @@ export function FeaturedStorm() {
         </div>
       </div>
       <div className="p-6">
-        <div className="flex items-center text-sm text-gray-500 mb-4">
-          <span>Posted 3 hours ago</span>
-          <span className="mx-2">•</span>
-          <span>By Meteorologist Sarah Chen</span>
-        </div>
-
         {/* Block 1: Description */}
         <div className="mb-6">
           <p className="text-gray-700">
-            Typhoon Malakas has rapidly intensified into a dangerous Category 4
-            storm with sustained winds of 130 mph (215 km/h) and is on a
-            trajectory toward the eastern coast. Officials warn this could be
-            the strongest storm to hit the region in over a decade, with
-            potential for catastrophic damage.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
           </p>
         </div>
 
@@ -56,25 +63,23 @@ export function FeaturedStorm() {
                 Current Situation
               </h3>
               <p className="text-gray-700 mb-3">
-                Outer rain bands are beginning to affect coastal areas with
-                tropical-storm-force winds expected by this evening. Rapid
-                intensification has been observed over very warm waters, and
-                storm surge could reach 10–15 ft in the highest-risk zones.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
               </p>
-              <ul className="list-disc list-inside text-gray-700 space-y-1">
-                <li>Forward speed: 12 mph WNW</li>
-                <li>
-                  Primary threats: wind damage, life-threatening surge, flash
-                  flooding
-                </li>
-                <li>Evacuations: mandatory for most coastal communities</li>
-              </ul>
             </div>
           </div>
         </div>
 
         {/* Block 3: Highlights */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           <div className="bg-sky-50 p-4 rounded-lg">
             <div className="flex items-center mb-2">
               <WindIcon className="h-5 w-5 text-sky-500 mr-2" />
@@ -103,7 +108,7 @@ export function FeaturedStorm() {
               Coastal evacuation ordered
             </p>
           </div>
-        </div>
+        </div> */}
 
         <Link
           to="/article/typhoon-malakas-path"

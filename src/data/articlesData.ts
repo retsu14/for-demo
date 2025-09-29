@@ -14,7 +14,7 @@ export const articlesData: Article[] = [
     id: "typhoon-malakas-path",
     title: "Typhoon Malakas Path: Projected Trajectory and Impact Areas",
     excerpt:
-      "Meteorologists track Typhoon Malakas as it moves west-northwest at 12 mph. Current models show potential landfall in eastern coastal regions by Wednesday evening.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     image: [
       "https://images.unsplash.com/photo-1594760467013-64ac2b80b7d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
       "https://od2-image-api.abs-cbn.com/prod/editorImage/1758685377905G1lNB4eagAAnGT9.jfif",
@@ -52,7 +52,7 @@ export const articlesData: Article[] = [
     id: "emergency-preparations-typhoon",
     title: "Emergency Preparations: What You Need Before Typhoon Landfall",
     excerpt:
-      "Essential supplies, evacuation routes, and safety protocols to follow as Typhoon Malakas approaches. Officials recommend at least 3 days of emergency supplies.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     image: [
       "https://images.unsplash.com/photo-1468259275383-c4f1b88d5772?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     ],
@@ -114,7 +114,7 @@ export const articlesData: Article[] = [
     id: "flooding-concerns-reservoirs",
     title: "Flooding Concerns Rise as Reservoirs Reach Capacity",
     excerpt:
-      "With 15-20 inches of rain expected, authorities are monitoring reservoir levels. Pre-emptive releases have begun to create capacity for incoming rainfall.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     image: [
       "https://images.unsplash.com/photo-1547683905-f686c993aae5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     ],
@@ -163,7 +163,8 @@ export const articlesData: Article[] = [
     id: "climate-change-typhoon-intensity",
     title: "Climate Change and Typhoon Intensity: The Connection",
     excerpt:
-      "Scientists explain how warming ocean temperatures contribute to stronger and more frequent typhoons, with analysis of recent intensification patterns.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+
     image: [
       "https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     ],
